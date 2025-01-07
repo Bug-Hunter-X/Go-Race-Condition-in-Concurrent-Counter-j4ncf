@@ -1,0 +1,3 @@
+# Go Race Condition Example
+
+This repository demonstrates a common race condition in Go programs.  The program attempts to increment a shared counter in multiple goroutines without proper synchronization, resulting in an incorrect final count. The solution showcases the use of `sync.Mutex` to prevent race conditions.  Understanding and avoiding race conditions is crucial for writing correct and reliable concurrent Go programs.  This example highlights a subtle but impactful concurrency bug.
